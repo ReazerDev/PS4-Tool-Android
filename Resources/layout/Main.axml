@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="47.0dp"
+        android:id="@+id/PS4IP"
+        android:text="Ps4 IP Adress..."
+        android:layout_marginTop="5.5dp" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ps4Port"
+        android:text="9020" />
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="58.0dp"
+        android:id="@+id/payload_DropDown" />
+    <Button
+        android:text="Inject Payload"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/inject_btn" />
+    <TextView
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1" />
+</LinearLayout>
