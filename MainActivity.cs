@@ -134,6 +134,7 @@ namespace PS4_Tool__Android
             getFilesInDownload();
             
             //Move files from Assets to Folder
+            //NOT WORKING YET
 
             //Version 1.76 Payloads
             using (var asset = Assets.Open("dlclose.bin"))
